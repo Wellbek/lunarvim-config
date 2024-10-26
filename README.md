@@ -15,12 +15,12 @@ Clone this repository to your local machine. You can place it wherever you prefe
 
 For Unix:
 ```bash
-git clone https://github.com/<YourUsername>/lunarvim-config ~/.config/lvim-config
+git clone https://github.com/Wellbek/lunarvim-config ~/.config/lvim-config
 ```
 
 For Windows:
 ```bash
-git clone https://github.com/<YourUsername>/lunarvim-config C:\Users\<Username>\AppData\Local\lvim-config
+git clone https://github.com/Wellbek/lunarvim-config C:\Users\<Username>\AppData\Local\lvim-config
 ```
 
 ### Step 2: Set Up a Symlink (Recommended)
