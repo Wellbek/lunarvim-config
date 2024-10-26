@@ -29,12 +29,14 @@ Tell LunarVim to use this config folder by creating a symbolic link pointing to 
 
 On Unix:
 ```bash
-ln -s ~/.config/lvim-config ~/.config/lvim
+ln -sf ~/.config/lvim-config/config.lua ~/.config/lvim
 ```
 
 On Windows (PowerShell):
 ```bash
-New-Item -ItemType SymbolicLink -Path C:\Users\<Username>\AppData\Local\lvim -Target C:\Users\<Username>\AppData\Local\lvim-config
+# Replace <Username> with your actual username
+Remove-Item -Path "C:\Users\<Username>\AppData\Local\lvim" -Force -Recurse
+New-Item -ItemType SymbolicLink -Path "C:\Users\<Username>\AppData\Local\lvim" -Target "C:\Users\<Username>\AppData\Local\lvim-config"
 ```
 
 ### Alternative: Copy the Config
